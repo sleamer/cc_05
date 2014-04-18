@@ -4,7 +4,7 @@ Theme URI:
 Author: CyberChimps
 Author URI: http://www.cyberchimps.com/
 Description: Parallax is a new responsive theme from CyberChimps WordPress Themes that enables you to create stunning websites. Parallax is responsive and works on smartphones, tablets, and desktop computers and uses the latest in parallax scrolling to present beautiful background images. Parallax also includes the power of a several plugins in a single theme allowing you to setup an entire website in minutes with touch-friendly drag-and-drop options on a per-page basis allowing you control the look and feel of every page.
-Version: 1.0.12
+Version: 1.0.13
 Tags: black, gray, red, dark, light, one-column, two-columns, right-sidebar, fixed-layout, fluid-layout, custom-background, custom-colors, custom-menu, featured-images, post-formats, theme-options, threaded-comments, sticky-post
 License: GNU General Public License version 3
 License URI: http://www.opensource.org/licenses/gpl-license.php GPL v3.0 (or later)
@@ -120,12 +120,13 @@ header {
 }
 
 #navigation_menu .default-icons a {
+	width: 25px;
+	height: 25px;
 	-webkit-border-radius: 49%;
 	-moz-border-radius: 49%;
 	border-radius: 49%;
-	font-size: 25px;
-	padding: 0 2px;
-	line-height: 1;
+	font-size: 1em;
+	line-height: 1.9;
 }
 
 /* DETAILS =============================================*/
@@ -276,10 +277,10 @@ header #search #searchform {
 .navbar-search .search-query {
 	outline: none;
 	border: 1px solid rgba(62, 123, 134, 0.3);
+	border-color: #ac1516;
 	-webkit-border-radius: 2;
 	-moz-border-radius: 2;
 	border-radius: 2;
-	border-color: #ac1516;
 }
 
 .navbar-search input[type=text] {
@@ -357,18 +358,18 @@ header #search #searchform {
 @media (max-width: 979px) {
 
 	#logo_container {
-		width: 50%;
 		margin: 0;
+		width: 50%;
 	}
 
 	#social_container {
-		width: 50%;
 		margin: 0;
+		width: 50%;
 	}
 
 	#navigation {
-		width: 100%;
 		margin: 0;
+		width: 100%;
 	}
 
 	.nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
@@ -376,8 +377,8 @@ header #search #searchform {
 	}
 
 	.nav-collapse .nav > li > a:hover {
-		background: transparent;
 		border-bottom: 4px solid transparent;
+		background: transparent;
 	}
 	.nav-collapse .dropdown-menu a:hover {
 		background: transparent;
@@ -423,15 +424,15 @@ header #search #searchform {
 @media screen and (max-width: 768px) {
 	#logo_container,
 	#logo_container #logo {
-		width: 100%;
 		margin: 0;
+		width: 100%;
 		text-align: center;
 	}
 
 	#social_container,
 	#social_container #social {
-		width: 100%;
 		margin: 0;
+		width: 100%;
 		text-align: center;
 	}
 
@@ -444,15 +445,14 @@ header #search #searchform {
 	}
 
 	#navigation {
-		width: 100%;
 		margin: 0;
+		width: 100%;
 	}
 }
 
 @media screen and (max-width: 782px) {
 	.admin-bar #navigation_menu {
-		top: 45px;
-		position: absolute;
+		top: 0;
 	}
 }
 

@@ -2,6 +2,11 @@ Parallax Free Changelog
 
 ****************************
 
+Version 1.0.13 (4-16-14)
+- Changed social font icons to font awesome.
+- Removed unwanted function_exists() conditional wrapper.
+- Fixed post title being hidden at mobile level.
+
 Version 1.0.12 (4-9-14)
 -Added upgrade button to the free theme customizer.
 -Fixed Vimeo video responsiveness.

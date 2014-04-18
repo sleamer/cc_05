@@ -12,3 +12,13 @@
  
 /* =Theme customization starts here
 ------------------------------------------------------- */
+/* SAL: Category ID's
+2 = Sci-Fi
+3 = Fantasy
+4 = Horror 
+*/
+.category-4 p{
+	color:magenta;
+	}
+.category-2 p{color:blue;}
+.category-3 p{color:orange;}
