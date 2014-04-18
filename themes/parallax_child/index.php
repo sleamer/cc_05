@@ -16,7 +16,7 @@
  */
 
 get_header(); ?>
-<h1> THIS is a TEST</h1>
+
 <?php do_action( 'cyberchimps_before_container' ); ?>
 
 <?php do_action( 'cyberchimps_blog_content' ); ?>
