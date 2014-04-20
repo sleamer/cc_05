@@ -33,7 +33,13 @@ get_header(); ?>
 
 						<?php do_action( 'cyberchimps_before_content' ); ?>
 					<h1> THIS IS A TEST</h1>
-
+<!-- SAL: relative links don't seem to work.  Absolute path for background image.
+	NEEDS TO CHANGE TO NEW PATH IF MOVED -->
+<style>
+body {
+    background-image: url("http://localhost/pcs_cc_05/wp-content/themes/parallax_child/images/haunted-by-her-loss-810376.jpg");
+}
+</style>
 <!-- SAL: I think this is theLoop -->
 
 						<?php if( have_posts() ) : ?>
