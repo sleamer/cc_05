@@ -49,6 +49,13 @@
 	<![endif]-->
 
 	<?php wp_head(); ?>
+<!-- SAL: turn on style to see how header is divided up
+	<style>
+	div {
+		border: 2px solid;
+	}
+	</style>
+-->
 </head>
 
 <body <?php body_class(); ?>>
@@ -64,8 +71,11 @@
 					<?php cyberchimps_header_logo(); ?>
 				</div>
 				<!-- span3 -->
-				<div id="social_container" class="span2">
+				<!--<div id="social_container" class="span2">
 					<?php cyberchimps_header_social_icons(); ?>
+				</div> -->
+	<!-- SAL: replaced social icons with the logo. -->
+				<div class="span2"><img src="/pcs_cc_05/wp-content/themes/parallax_child/images/logo.gif">
 				</div>
 				<!-- span 2 -->
 				<nav id="navigation" class="span7" role="navigation">
