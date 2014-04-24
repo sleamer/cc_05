@@ -31,8 +31,12 @@ get_header(); ?>
 
 					<div id="content" <?php cyberchimps_filter_content_class(); ?>>
 
+						
 						<?php do_action( 'cyberchimps_before_content' ); ?>
-					<h1> THIS IS A TEST</h1>
+
+						
+							<h1 > THIS IS A TEST</h1>
+						
 <!-- SAL: relative links don't seem to work.  Absolute path for background image.
 	NEEDS TO CHANGE TO NEW PATH IF MOVED -->
 <style>
