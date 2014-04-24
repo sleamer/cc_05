@@ -49,13 +49,14 @@
 	<![endif]-->
 
 	<?php wp_head(); ?>
-<!-- SAL: turn on style to see how header is divided up
-	<style>
+<!-- / SAL: turn on style to see how header is divided up
+	<style>*/
 	div {
-		border: 2px solid;
+		border: 2px solid green;
 	}
 	</style>
--->
+	-->
+
 </head>
 
 <body <?php body_class(); ?>>

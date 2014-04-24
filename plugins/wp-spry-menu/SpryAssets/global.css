@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+ul.MenuBarHorizontal, ul.MenuBarVertical {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	cursor: default;
+}
+
+
+
+ul.MenuBarHorizontal, ul.MenuBarHorizontal li {
+	width: auto;
+}
+
+ul.MenuBarActive {
+	z-index: 1000;
+}
+
+ul.MenuBarHorizontal li, ul.MenuBarVertical li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	position: relative;
+	text-align: left;
+	cursor: pointer;
+}
+ul.MenuBarHorizontal li {
+	float: left;
+}
+
+
+
+ul.MenuBarHorizontal ul, ul.MenuBarVertical ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	position: absolute;
+	z-index: 1020;
+	cursor: default;
+	left: -1000em;
+}
+
+ul.MenuBarVertical ul {
+	margin-left: 100%;
+	top: 0;
+}
+
+ul.MenuBarHorizontal ul.MenuBarSubmenuVisible {
+	left: auto;
+}
+
+ul.MenuBarVertical ul.MenuBarSubmenuVisible {
+	left: 0;
+}
+
+ul.MenuBarHorizontal ul ul {
+	position: absolute;
+	margin: 0 0 0 100%;
+}
+
+ul.MenuBarHorizontal ul.MenuBarSubmenuVisible ul.MenuBarSubmenuVisible {
+	left: auto;
+	top: 0;
+}
+
+/* design */
+ul.MenuBarHorizontal a, ul.MenuBarVertical a {
+	display: block;
+	cursor: pointer;
+	padding: 0.5em 0.75em;
+	text-decoration: none;
+}
+
+ul.MenuBarHorizontal a.MenuBarItemSubmenu, ul.MenuBarVertical a.MenuBarItemSubmenu, ul.MenuBarHorizontal ul a.MenuBarItemSubmenu, ul.MenuBarHorizontal a.MenuBarItemSubmenuHover, ul.MenuBarHorizontal ul a.MenuBarItemSubmenuHover, ul.MenuBarVertical a.MenuBarItemSubmenuHover {
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+
+ul.MenuBarHorizontal a.MenuBarItemSubmenu {	
+	padding-right: 1.2em;
+	background-image: url(SpryMenuBarDown.gif);
+}
+
+ul.MenuBarVertical a.MenuBarItemSubmenu {
+	background-image: url(SpryMenuBarRight.gif);
+}
+
+ul.MenuBarHorizontal ul a.MenuBarItemSubmenu {
+	background-image: url(SpryMenuBarRight.gif);
+}
+
+ul.MenuBarHorizontal a.MenuBarItemSubmenuHover {
+	background-image: url(SpryMenuBarDownHover.gif);
+}
+
+ul.MenuBarHorizontal ul a.MenuBarItemSubmenuHover {
+	background-image: url(SpryMenuBarRightHover.gif);
+}
+
+ul.MenuBarVertical a.MenuBarItemSubmenuHover {
+	background-image: url(SpryMenuBarRightHover.gif);
+}
+
+/*ie hack, i don't know though */
+ul.MenuBarHorizontal iframe, ul.MenuBarVertical iframe {
+	position: absolute;
+	display:none;
+	z-index: 1010;
+}
+
+
+
+@media screen, projection
+{
+	ul.MenuBarHorizontal li.MenuBarItemIE, ul.MenuBarVertical li.MenuBarItemIE
+	{
+		display: inline;
+		f\loat: left;
+		padding-top:-5px;
+
+	}
+}
+
+ul.MenuBarVertical li, ul.MenuBarHorizontal ul, ul.children li {
+	width: 15em;
+}

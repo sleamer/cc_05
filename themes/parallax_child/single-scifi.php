@@ -36,7 +36,7 @@ get_header(); ?>
 	NEEDS TO CHANGE TO NEW PATH IF MOVED -->
 <style>
 body {
-    background-image: url("http://localhost/pcs_cc_05/wp-content/themes/parallax_child/images/Space-Art-Wallpaper.jpg");
+    background-image: url("http://localhost/pcs_cc_05/wp-content/themes/parallax_child/images/3.jpg");
 }
 </style>
 <!-- SAL: I think this is theLoop -->
@@ -47,7 +47,7 @@ body {
 								<h1 class="page-title">
 									<?php
 									if( is_category() ) {
-										printf( __( 'Welcome: %s', 'parallax' ), '<span>' . single_cat_title( '', false ) . '</span>' );
+										printf( __( 'Welcome to the %s', 'parallax' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 
 									}
 									elseif( is_tag() ) {

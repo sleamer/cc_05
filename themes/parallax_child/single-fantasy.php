@@ -35,13 +35,13 @@ get_header(); ?>
 						<?php do_action( 'cyberchimps_before_content' ); ?>
 
 						
-							<h1 > THIS IS A TEST</h1>
+							<h1 > </h1>
 						
 <!-- SAL: relative links don't seem to work.  Absolute path for background image.
 	NEEDS TO CHANGE TO NEW PATH IF MOVED -->
 <style>
 body {
-    background-image: url("http://localhost/pcs_cc_05/wp-content/themes/parallax_child/images/Dragon-9.jpg");
+    background-image: url("http://localhost/pcs_cc_05/wp-content/themes/parallax_child/images/seamlesstexture14_1200.jpg");
 }
 </style>
 <!-- SAL: I think this is theLoop -->
@@ -52,7 +52,7 @@ body {
 								<h1 class="page-title">
 									<?php
 									if( is_category() ) {
-										printf( __( 'Category Archives: %s', 'parallax' ), '<span>' . single_cat_title( '', false ) . '</span>' );
+										printf( __( 'Welcome to the %s', 'parallax' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 
 									}
 									elseif( is_tag() ) {

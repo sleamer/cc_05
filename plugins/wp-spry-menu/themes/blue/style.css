@@ -1,0 +1,58 @@
+ul.MenuBarVertical {
+	border: none;
+}
+
+/*background of the main menu */
+ul.MenuBarHorizontal li,ul.MenuBarVertical li {
+background: #000 url(bg.gif) repeat-x center;
+}
+
+/*you may want to add sparator border between main menu item*/
+
+ul.MenuBarHorizontal li {
+/*border-right: 1px solid #fff;*/ /*border is on top in horizontal mode*/
+}
+ul.MenuBarVertical li {
+border-top: 1px solid #fff; /*border is on top in vertical mode*/
+}
+
+
+ul.MenuBarVertical a, ul.MenuBarHorizontal a, ul.MenuBarHorizontal li.MenuBarItemIE, ul.MenuBarVertical li.MenuBarItemIE {
+color: #fff; /* text color in normal */
+}
+
+ul.MenuBarVertical a.MenuBarItemHover, ul.MenuBarVertical a.MenuBarItemSubmenuHover, ul.MenuBarVertical a.MenuBarSubmenuVisible,
+ul.MenuBarHorizontal a.MenuBarItemHover, ul.MenuBarHorizontal a.MenuBarItemSubmenuHover, ul.MenuBarHorizontal a.MenuBarSubmenuVisible {
+color: #31679e; /*text color when hovered */
+}
+
+/* set the padding of list menu here*/
+ul.MenuBarHorizontal a, ul.MenuBarVertical a { 
+	padding: 0.4em 0.75em;
+}
+
+
+/* uncomment this to add border around sub menu */
+
+ul.children {
+/*border: 1px solid #fff;*/ 
+}
+
+/* this is the width of child menu */
+ul.children li {
+	width: 15em; 
+	/*border-top: 1px solid #ccc;*/ /*to add border between child menu, remove it if you don't want to*/
+}
+
+/* children background,font-size, padding here */
+ul.children a {
+font-size: .85em;
+background: #6d93b9;
+padding:3px
+}
+
+/* children on hover */
+ul.children li a:hover {
+background: #adc7e2;
+color:#6d93b9
+}
