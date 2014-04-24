@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+ul.MenuBarVertical li {
+	text-align: right;
+}
+ul.MenuBarVertical ul {
+	margin: 0 0 0 -15em;
+
+}
+
+
+ul.MenuBarVertical a.MenuBarItemSubmenu  {
+	background-image: url(SpryMenuBarLeft.gif);
+	background-position: 5% 50%;
+}
+
+ul.MenuBarVertical a.MenuBarItemSubmenuHover {
+	background-image: url(SpryMenuBarLeftHover.gif);
+	background-position: 5% 50%;
+}

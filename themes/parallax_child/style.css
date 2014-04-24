@@ -1,0 +1,69 @@
+/*
+ Theme Name:     Parallax Theme
+ Theme URI:      http://cyberchimps.com/parallax/
+ Description:    Parallax Child Theme
+ Author:         Cyberchimps.com
+ Author URI:     http://www.cyberchimps.com
+ Template:       parallax
+ Version:        1.0.0
+*/
+ 
+@import url("../parallax/style.css");
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+/* SAL: Category ID's
+2 = Sci-Fi
+3 = Fantasy
+4 = Horror 
+*/
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+
+
+
+
+h1{
+
+	color: white;
+	font-weight: bold;
+
+
+	}
+
+/*p{
+	color:black;
+}
+*/
+
+
+.category-4{} 
+
+
+.category-3 {}
+
+
+.category-2{}
+
+
+.taxonomy-description p{
+color:white;
+
+}
+
+
+.noteEdDiv {
+	background-color:black;
+	}
+
+.noteEdText {
+	color:red; 
+	text-align:center;
+	padding:1%;
+	
+	}
+	
+
+
+
+
+
