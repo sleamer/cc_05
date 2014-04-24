@@ -37,7 +37,7 @@ get_header(); ?>
 	NEEDS TO CHANGE TO NEW PATH IF MOVED -->
 <style>
 body {
-    background-image: url("http://localhost/pcs_cc_05/wp-content/themes/parallax_child/images/Dragon-9_originlx.jpg");
+    background-image: url("http://localhost/pcs_cc_05/wp-content/themes/parallax_child/images/Dragonlx.jpg");
 }
 </style>
 <!-- SAL: I think this is theLoop -->

@@ -19,6 +19,9 @@
 */
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC);
 
+
+
+
 h1{
 
 	color: white;
@@ -27,27 +30,40 @@ h1{
 
 	}
 
-p{
+/*p{
 	color:black;
+}
+*/
+
+
+.category-4{} 
+
+
+.category-3 {}
+
+
+.category-2{}
+
+
+.taxonomy-description p{
+color:white;
+
 }
 
 
-
-.category-4 p{ font-style: bold;
-	
+.noteEdDiv {
+	background-color:black;
 	}
 
-
-.category-3 p{ 
-					color:black;
-					}
-
-
-.category-2 p{color:black;}
-
+.noteEdText {
+	color:red; 
+	text-align:center;
+	padding:1%;
+	
+	}
 	
 
-.category-3 
 
 
-p{color:orange;}
+
+

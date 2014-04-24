@@ -90,7 +90,14 @@ if( cyberchimps_get_option( 'footer_show_toggle' ) == '1' ) {
 
 <?php wp_footer(); ?>
 
-
+	<div class="noteEdDiv">
+		<p class="noteEdText"><img alt="Geek Hub" height="42" width="42"  src="/pcs_cc_05/wp-content/themes/parallax_child/images/logo.gif"> Thank you for Visting Geekhub!  We hope to see you at the next Comicon</p>
+	</div>
+		
+<!-- mt: jquery broke parallax, theme issue couldn't be fixed, please provide feedback on this issue.Jquery click event on logo creates pop up alert. -->
+<!-- <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="/pcs_cc_05/wp-content/themes/parallax_child/js/ghjquery.js"></script> -->
 </body>
+
 
 </html>

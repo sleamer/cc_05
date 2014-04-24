@@ -76,7 +76,7 @@
 					<?php cyberchimps_header_social_icons(); ?>
 				</div> -->
 	<!-- SAL: replaced social icons with the logo. -->
-				<div class="span2" id="ghlogo"><img src="/pcs_cc_05/wp-content/themes/parallax_child/images/logo.gif">
+				<div class="span2" id="ghlogo"><img alt="Geek Hub" src="/pcs_cc_05/wp-content/themes/parallax_child/images/logo.gif">
 				</div>
 				<!-- span 2 -->
 				<nav id="navigation" class="span7" role="navigation">
